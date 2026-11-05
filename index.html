@@ -51,12 +51,6 @@
                 }
             }, false);
 
-            setInterval(function() {
-                (function() {
-                    return false;
-                })['constructor']('debugger')();
-            }, 1000);
-
             try {
                 console.clear();
                 console.log(
@@ -3754,7 +3748,7 @@
             <div id="add-article-container" class="text-center mt-16 hidden">
                 <button id="add-article-btn" class="submit-btn group">
                     <span data-translate-key="addArticleBtn">Write New Article</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 ml-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 ml-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
                 </button>
             </div>
         </section>
@@ -3938,7 +3932,7 @@
                          <p id="search-query-display" class="text-gray-400 mt-2">Results for your query will appear here.</p>
                     </div>
                     <button id="close-search-btn" class="secondary-btn inline-flex items-center gap-2 mt-4 sm:mt-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                         <span data-translate-key="tooltipModalClose">Close</span>
                     </button>
                 </div>
@@ -4041,7 +4035,7 @@
                  <div id="add-product-container" class="text-center mt-12">
                     <button id="add-product-btn" class="submit-btn group">
                         <span data-translate-key="addProductBtn">Add New Product</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 ml-2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 ml-2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                     </button>
                 </div>
 
@@ -4310,7 +4304,7 @@
         <div class="absolute inset-0 bg-black/70 backdrop-blur-sm product-admin-modal-overlay-bg"></div>
         <div class="relative w-11/12 max-w-2xl project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10 max-h-[90vh] overflow-y-auto">
             <button id="close-product-admin-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <h3 id="product-admin-modal-title" class="text-2xl font-bold mb-6">Add New Product</h3>
             <form id="product-admin-form" class="space-y-6">
@@ -4478,7 +4472,7 @@
     </div>
 
     <button id="contact-fab-btn" class="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-50 cta-btn group" aria-label="Get in touch" title="Get in touch" data-translate-title="tooltipFabContact">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7 transition-transform duration-300 group-hover:scale-110"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7 transition-transform duration-300 group-hover:scale-110"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
     </button>
     
     <button id="chat-fab-btn" class="fixed bottom-6 left-6 md:bottom-8 md:left-8 z-50 cta-btn group" aria-label="Open Chatbot" title="Open Chatbot" data-translate-title="tooltipChatbot">
@@ -4511,7 +4505,7 @@
     
         <div class="relative w-11/12 max-w-sm login-modal-content rounded-2xl p-6 sm:p-8 z-10">
             <button id="close-login-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-20" aria-label="Close" title="Close" data-translate-title="tooltipModalClose">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
     
             <div class="text-center relative z-10">
@@ -4539,7 +4533,7 @@
     
         <div class="relative w-11/12 max-w-2xl project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10 max-h-[90vh] overflow-y-auto">
             <button id="close-project-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close" title="Close" data-translate-title="tooltipModalClose">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
     
             <div class="text-left mb-8 flex items-center gap-4">
@@ -4644,7 +4638,7 @@
         <div class="absolute inset-0 bg-black/70 backdrop-blur-sm article-modal-overlay-bg"></div>
         <div class="relative w-11/12 max-w-3xl project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10 max-h-[90vh] overflow-y-auto">
             <button id="close-article-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close" title="Close" data-translate-title="tooltipModalClose">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <h3 id="article-modal-title" class="text-2xl font-bold mb-6">Write New Article</h3>
             <form id="article-form" class="space-y-6">
@@ -4694,7 +4688,7 @@
     
         <div class="relative w-full max-w-4xl z-10 flex flex-col max-h-[95vh] sm:max-h-[90vh] mt-8 sm:mt-0">
             <button id="close-modal-btn" class="absolute -top-12 right-0 sm:top-4 sm:right-4 text-gray-400 hover:text-white transition-colors z-50 bg-[var(--bg-primary)] sm:bg-black/20 hover:bg-black/40 rounded-full p-2 sm:p-1 border border-[var(--border-primary)] sm:border-none shadow-lg sm:shadow-none" aria-label="Close" title="Close" data-translate-title="tooltipModalClose">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             
             <div class="grid lg:grid-cols-5 glass-card rounded-2xl sm:rounded-3xl overflow-y-auto shadow-2xl border border-[var(--border-primary)] w-full h-full scrollbar-hide">
@@ -4782,7 +4776,7 @@
         <div class="absolute inset-0 bg-black/80 backdrop-blur-md lightbox-overlay"></div>
         <img id="lightbox-image" src="" alt="Full-size project image, enlarged view." class="relative max-w-full max-h-full rounded-lg z-10" loading="lazy">
         <button id="close-lightbox-btn" class="absolute top-6 right-6 text-white hover:text-gray-300 transition-colors z-20" aria-label="Close" title="Close" data-translate-title="tooltipModalClose">
-             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
         </button>
     </div>
 
@@ -4790,7 +4784,7 @@
         <div class="absolute inset-0 bg-black/70 backdrop-blur-sm settings-modal-overlay-bg"></div>
         <div class="relative w-11/12 max-w-lg project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10 max-h-[90vh] overflow-y-auto">
             <button id="close-settings-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <h3 class="text-2xl font-bold mb-6">Profile Settings</h3>
             <form id="settings-form" class="space-y-6">
@@ -4879,13 +4873,13 @@
             <img id="certificate-gallery-image" src="" alt="Full-size certificate image." loading="lazy" class="relative max-w-full max-h-[85%] object-contain rounded-lg z-10">
             <p id="certificate-gallery-title" class="text-white text-lg font-bold mt-4"></p>
             <button id="close-certificate-gallery-btn" class="absolute top-6 right-6 text-white hover:text-gray-300 transition-colors z-20" aria-label="Close">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <button id="certificate-gallery-prev" class="absolute left-4 top-1/2 -translate-y-1/2 gallery-nav button text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
             </button>
             <button id="certificate-gallery-next" class="absolute right-4 top-1/2 -translate-y-1/2 gallery-nav button text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </button>
         </div>
     </div>
@@ -4894,7 +4888,7 @@
         <div class="absolute inset-0 bg-black/70 backdrop-blur-sm certificate-modal-overlay-bg"></div>
         <div class="relative w-11/12 max-w-lg project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10 max-h-[90vh] overflow-y-auto">
             <button id="close-certificate-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <h3 id="certificate-modal-title" class="text-2xl font-bold mb-6">Add Certificate</h3>
             <form id="certificate-form" class="space-y-6">
@@ -4921,7 +4915,7 @@
         <div class="absolute inset-0 bg-black/70 backdrop-blur-sm store-review-modal-overlay-bg"></div>
         <div class="relative w-11/12 max-w-md project-modal-content glass-card rounded-2xl p-6 md:p-8 z-10">
             <button id="close-store-review-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors" aria-label="Close">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <h3 class="text-2xl font-bold mb-2" data-translate-key="writeReviewTitle">Write a Review</h3>
             <p class="text-gray-400 text-sm mb-6" data-translate-key="writeReviewSubtitle">Share your experience with our products.</p>
@@ -10517,6 +10511,8 @@ USER QUERY: "${userMessage}"`;
             router(); 
         });
     </script>
+    <link rel="stylesheet" href="/tour-feature.css">
+    <script src="/tour-feature.js" defer></script>
 </body>
 
 </html>
